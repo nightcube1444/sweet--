@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Fun and casual font style */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f2/Cadbury_Dairy_Milk_Logo.jpg'); /* Dairy Milk background */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background */
+    background-attachment: fixed; /* Parallax effect */
+    color: #000;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #462aab; /* Dairy Milk purple theme */
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    font-size: 2.5em; /* Large header font size */
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    max-width: 900px; /* Limit content width for readability */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for text readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for content box */
+}
+
+/* Facts Section */
+#facts ul {
+    list-style-type: disc;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+/* Image Section */
+.images {
+    display: flex; /* Align images in a row */
+    justify-content: center; /* Center the images */
+    gap: 25px; /* Space between images */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.images img {
+    height: 100px; /* Uniform image height */
+    width: auto;
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.images img:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
+/* Nutrition Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 8px; /* Rounded table corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2; /* Light header background */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap; /* Responsive footer layout */
+    justify-content: space-around;
+}
